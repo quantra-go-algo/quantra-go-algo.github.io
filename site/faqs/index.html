@@ -1,0 +1,759 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Quantra® Documentation and User Guide.">
+      
+      
+        <meta name="author" content="Quantinsti® Quantitative Learning">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>Broswer Version - Quantra® Support Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#8bc34b">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-green" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#frequently-asked-questions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Quantra® Support Documentation" class="md-header__button md-logo" aria-label="Quantra® Support Documentation" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quantra® Support Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Broswer Version
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../courseenrollment/" class="md-tabs__link">
+        Quantra® Experience
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pagenotloading/" class="md-tabs__link md-tabs__link--active">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contactus/" class="md-tabs__link">
+        Contact Us
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Quantra® Support Documentation" class="md-nav__button md-logo" aria-label="Quantra® Support Documentation" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    Quantra® Support Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Quantra® Experience
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Quantra® Experience" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Quantra® Experience
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../courseenrollment/" class="md-nav__link">
+        Course Enrollment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payments%26refunds/" class="md-nav__link">
+        Payments & Refunds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learningexperience/" class="md-nav__link">
+        Learning Experience
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../completion%26certification/" class="md-nav__link">
+        Completion & Certification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accounts%26registration/" class="md-nav__link">
+        Accounts & Registration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pagenotloading/" class="md-nav__link">
+        Page Not Loading
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Broswer Version
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Broswer Version
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#writing-strategies-and-the-ide" class="md-nav__link">
+    Writing strategies and the IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-algorithm-code" class="md-nav__link">
+    Debugging algorithm code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Contact Us
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contact Us" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Contact Us
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contactus/" class="md-nav__link">
+        Contact Us
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#writing-strategies-and-the-ide" class="md-nav__link">
+    Writing strategies and the IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging-algorithm-code" class="md-nav__link">
+    Debugging algorithm code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permanent link">&para;</a></h1>
+<h2 id="writing-strategies-and-the-ide">Writing strategies and the IDE<a class="headerlink" href="#writing-strategies-and-the-ide" title="Permanent link">&para;</a></h2>
+<details class="question">
+<summary>How do I start writing a strategy?</summary>
+<p>For a start, see <a href="../quickstart">quickstart</a>. You use Python to write 
+the algorithm code. If you need a brush-up on Python basics see the 
+<a href="../python">tutorials</a> section.</p>
+</details>
+<details class="question">
+<summary>I can't code, do you have any alternative?</summary>
+<p>Yes of course, check out our <a href="../blocks_intro">visual programming</a></p>
+</details>
+<details class="question">
+<summary>Do I need to be expert in Python to write an algo?</summary>
+<p>Not expert, but you do need basic familiarity to get started. See our 
+<a href="../python">tutorials</a> section for a crash course on Python. We are also 
+working on a feature release where you can entirely avoid coding to build 
+strategies!</p>
+</details>
+<details class="question">
+<summary>Can I use R or MATLAB® to code my strategies?</summary>
+<p>We support only Python at present. If you are familiar either R or 
+MATLAB®, it is easy to pick up Python.</p>
+</details>
+<details class="question">
+<summary>Where can I learn Python for coding algorithms?</summary>
+<p>See our <a href="../python">tutorials</a> section for a crash course on 
+Python.</p>
+</details>
+<details class="question">
+<summary>What are the Python packages that I can use on your platform?</summary>
+<p>We have a <a href="../whitelist/#supported-python-packages">white-list</a> of 
+packages that you can use in your code (by simply <code>import</code>-ing them).</p>
+</details>
+<details class="question">
+<summary>How to develop algorithms with multiple code files?</summary>
+<p>Checkout our help section on using the <a href="../ide">workspace</a>.</p>
+</details>
+<details class="question">
+<summary>How to import my own functions from another file?</summary>
+<p>Checkout our help section on using the <a href="../ide">workspace</a>.</p>
+</details>
+<details class="question">
+<summary>The code editor (IDE) looks unfamiliar, how to use it?</summary>
+<p>We use the <a href="https://microsoft.github.io/monaco-editor/">Monaco</a> editor
+that powers <a href="https://code.visualstudio.com/">VS Code</a>. If you are familiar
+with it that should help, including many of the key-board 
+<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">shortcuts</a>.</p>
+</details>
+<details class="question">
+<summary>I am new to all this, where do I get ideas to develop strategies?</summary>
+<p>Ideas are the most valuable input to the strategy development cycle. If 
+you have prior experience in trading, try to express your trading rules in 
+terms of clear mathematical formulae. You can look at the 
+<a href="../technical">tutorials</a> to get some ideas. Also check-out the 
+<a href="../quants">primer on quant strategies</a> page under tutorials to get some pointers to get 
+started.</p>
+</details>
+<h2 id="debugging-algorithm-code">Debugging algorithm code<a class="headerlink" href="#debugging-algorithm-code" title="Permanent link">&para;</a></h2>
+<details class="question">
+<summary>Do you have any tools to debug my code?</summary>
+<p>At present, unfortunately, no. This is in our to-do list.</p>
+</details>
+<details class="question">
+<summary>How do I debug my code?</summary>
+<p>At present, unfortunately, we have no support for any debugging tools. 
+Also as a security measure, we have quite a few Python <code>introspection</code> 
+functions (like <code>type</code>, <code>dir</code> etc.) either disabled or restricted. The
+working solution is a judicious use of the <code>print</code> statement.</p>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>"The most effective debugging tool is still careful thought, 
+coupled with judiciously placed print statements."
+Brian Kernighan, "Unix for Beginners" (1979)</p>
+</div>
+<p>if you continue to have an issue you cannot resolve, please click the
+<image src="../images/report_issue.png" alt="report" align="center" /img>
+button that automatically comes up every time your code encounters an 
+error during development (in quick backtest run).</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'Symbol XXX was not found' error?</summary>
+<p>This is usually because your code refers to an asset <code>symbol</code>, which
+is not in the dataset you used to run the strategy. Make sure you pick 
+the correct dataset for the assets you are using.</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'Use of type function on this object is not supported' error?</summary>
+<p>We have disabled or restricted certain Python <code>introspection</code>. Usually, 
+this should not affect a regular strategy code development. If it does 
+bother you, give us a <a href="mailto:blueshift-support@quantinsti.com">shout</a>, 
+with some details.</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'illegal code' error?</summary>
+<p><span id="illegal">This</span> means we detected some aspects of your code 
+as potentially "unsafe".In most circumstances it is usually right, but 
+false positives are possible. Reach out to <a href="mailto:blueshift-support@quantinsti.com">us</a> 
+with your issues. We will be happy to help.</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'No minute data for sid' error?</summary>
+<p>This is usually because a frequency mismatch. You are using a daily 
+dataset and referring minute-level data from within your strategy. Or 
+you are referring to a benchmark asset (like <code>SPY</code> or <code>NIFTY50</code>), which 
+only have daily data history.</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'History window extends before ...' error?</summary>
+<p>This is usually because in your code you are requesting data beyond the
+start date of the dataset you are using. Try setting the start date of 
+your backtest to a later date. Alternatively you can <code>catch</code> this 
+exception in the usual Pythonic way within your code.</p>
+</details>
+<details class="question">
+<summary>Why do I get an 'illegal str conversion' error?</summary>
+<p>same us <a href="#illegal">illegal code</a> issue above.</p>
+</details>
+<details class="question">
+<summary>Why do I get a 'illegal import' error?</summary>
+<p>same us <a href="#illegal">illegal code</a> issue above. You are trying
+to import a module outside our white-list. If you need any specific 
+Python package, please <a href="mailto:blueshift-support@quantinsti.com">reach</a> 
+out to us to add to the white-list.</p>
+</details>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../pagenotloading/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Page Not Loading" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Page Not Loading
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../contactus/" class="md-footer__link md-footer__link--next" aria-label="Next: Contact Us" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Contact Us
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021 Quantinsti® Quantitative Learning
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": "navigation.tabs navigation.tabs.sticky", "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
