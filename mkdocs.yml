@@ -1,0 +1,58 @@
+site_name: Quantra® Support Documentation
+site_description: Quantra® Documentation and User Guide.
+site_description: 'Quantra® Documentation and User Guide.'
+site_author: Quantinsti® Quantitative Learning
+copyright: 'Copyright &copy; 2021 Quantinsti® Quantitative Learning'
+theme:
+    name: 'material'
+    logo: 'images/logo.svg'
+    palette:
+        primary: light green
+        media: "(prefers-color-scheme: light)" 
+        scheme: default
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+        media: "(prefers-color-scheme: dark)" 
+        scheme: slate
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+    features:
+        navigation.tabs
+        navigation.tabs.sticky
+markdown_extensions:
+    - admonition
+    - codehilite:
+          linenums: true
+    - footnotes
+    - meta
+    - toc:
+        permalink: true
+    - pymdownx.mark
+    - pymdownx.arithmatex
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - attr_list
+    - md_in_html
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - Quantra® Experience:
+        - Course Enrollment: courseenrollment.md
+        - Payments & Refunds: payments&refunds.md
+        - Learning Experience: learningexperience.md
+        - Completion & Certification: completion&certification.md
+        - Accounts & Registration: accounts&registration.md
+    - Troubleshooting:
+        - Page Not Loading: pagenotloading.md
+        - Broswer Version: browserversions.md
+    - Contact Us:
+        - Contact Us: contactus.md
+
+
