@@ -2,7 +2,7 @@
 
 ??? warning "For best learning experience, always keep your browser updated!"
 
-    Click [here](www.google.com) :material-cursor-default-click-outline: to get relevant details about your broswer. 
+    Click [here (to be updated)](www.google.com) :material-cursor-default-click-outline: to get relevant details about your broswer. 
 
 ## How do I register on Quantra® portal?
 
@@ -25,7 +25,7 @@ Algorithmic and Quantitative Trading.
 
 If you have used your email id to sign up with Quantra®, you can click on 
 the `Forgot password?` link in the `Login` window, enter your email id in 
-the field provided and click the Send button. We will send a link in your 
+the field provided and click the `Send` button. We will send a link in your 
 mailbox which would help you in setting a new password. 
 
 !!! Tip
@@ -67,7 +67,7 @@ by QuantInsti®.
 
 ## How do I access these additional benefits provided by QuantInsti®?
 
-After logging into Quantra, clicking the icon on the top right corner of 
+After logging into Quantra, clicking the ==profile icon== on the top right corner of 
 the page opens a dropdown menu. Clicking the [My Services](https://accounts.quantinsti.com/services) link will 
 redirect you to your `My Services` page where you can access the services 
 by launching the respective icons.
@@ -168,14 +168,14 @@ for download & can be shared on social media platforms.
 You can select courses on Quantra through multiple ways, such as:
 
 1. Through downloading the `Quantra Course Brochure` 
-[here](www.google.com).
+[here (to be updated)](www.google.com).
 2. Through filters in the `All Courses` section on the course catalogue 
 page [here](www.quantra.quantinsti.com/courses).
 3. Through the `Featured Courses` on the course catalogue page or the 
 `Recommended Courses` section on the dashboard.
 
 !!! Tip "Course Selection Tip"
-    If any of the four suggested ways above do not help you, you can 
+    If any of the three suggested ways above do not help you, you can 
     simply schedule a call with our Course Counsellor 
     [here](https://calendly.com/quantra/select-a-course?month=2022-02). 
     Our course expert will get in touch with you to resolve all your 

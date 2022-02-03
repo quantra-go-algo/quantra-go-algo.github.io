@@ -2,36 +2,36 @@
 
 !!! warning "For best learning experience, always keep your browser updated!"
 
-    Click [here](www.google.com) :material-cursor-default-click-outline: for details about your broswer.
+    Click [here (to be updated)](www.google.com) :material-cursor-default-click-outline: for details about your broswer.
 
 ## What is the Dashboard?
 
 Once you have logged into Quantra, you are directed to your personalized 
-dashboard. In the dashboard, you will see the courses you have registered 
+dashboard. On the dashboard, you will see the courses you have registered 
 for, a link to the community of Quantra students and experts, notifications 
 about your activity and upcoming events.
 
 ## How do I get my doubts cleared on a particular topic?
 
-Quantra’s Community is the best place to get your doubts cleared. You 
+Quantra’s `Community` is the best place to get your doubts cleared. You 
 could first see whether the topic that you would like to discuss upon is 
-already being discussed, if not you can start a new discussion by clicking 
+already being discussed. If not, you can start a new discussion by clicking 
 on the `Start Discussion` button. The community is where students and experts 
 come together to discuss topics on Algorithmic trading, spending time here
 will greatly help in clearing your doubts.
 
-## Where can I find details about running courses?
+## Where can I find details about Quantra courses?
 
-On your dashboard, clicking on the `ALL COURSES` link will take you to the 
+On your dashboard, clicking on the `Browse Courses` link will take you to the 
 Course List page where you will find all the courses that are running on 
-Quantra. There are filters on the left of this page which would help you in 
-filtering down to relevant courses. Clicking on a course will show you more 
+Quantra. Upon scrolling, there are filters on the right side of this page which would help you in 
+filtering down to relevant courses. ==Clicking on a course== will show you more 
 details about the course.
 
 ## How do I navigate through a course?
 
-When doing a course, the left side of your screen will contain the current 
-unit that you are undergoing . On the top right is a dropdown which contains 
+When doing a course, the ==top left side== of your screen will display the name
+of the current unit that you are undergoing and a dropdown which contains 
 the course structure. You can further click on any module of the course to 
 expand and show its units. This is a useful tool to help you navigate to 
 any unit in the course. Once you have finished a particular unit, clicking 
@@ -41,11 +41,10 @@ the course.
 
 ## Do courses have captions or transcripts?
 
-Yes! All courses on Quantra have the `subtitles` (at the bottom of the video) or 
-interactive transcripts on the right under `Transcript` section. 
-Interactive transcripts are clickable subtitles which appear on the 
-right of the course video, they can be used to navigate to any part of 
-the video.
+Yes! All courses on Quantra have the optional subtitles playing inside the video. 
+All video units also have interactive subtitles running in the `Subtitle` tab below 
+the video area. These subtitles are clickable, and can be used to navigate to any 
+part of the video.
 
 ## Are videos downloadable?
 
@@ -61,7 +60,7 @@ a Quantra course. For the best learning experience, use Google Chrome.
 
 !!! Note
     For information about other compatible browsers & their versions, 
-    please click [here](www.google.com).
+    please click [here (to be updated)](www.google.com).
 
 ## How do I download a Jupyter notebook on my local machine?
 
@@ -86,14 +85,14 @@ simply go to the last section of the course, `Course Summary`, and click on the
 Once you're inside the unit, you can click on the `Download icon` (:material-arrow-down:). Upon clicking, the zip file will start downloading on your
 local machine and you will be able to access the coding notebooks after file extraction.
  
-## I am unable to find my purchased course in the dashboard. What should I do?
+## I am unable to find my purchased course on the dashboard. What should I do?
 
 In such a case, firstly, you should ==confirm if the payment== for the course was
 successful. Post confirmation, if you're still unable to see the course in 
 your dashboard, you can simply ==write to us at [quantra@quantinsti.com](quantra@quantinsti.com)== 
 and our Customer Satisfaction Team will address your query at the earliest.
  
-## My payment got debited but I am unable to see my courses in the dashboard.
+## My payment got debited but I am unable to see my courses on the dashboard.
 
 In such a case, you can follow the steps below:
 
@@ -110,19 +109,8 @@ At times, the internet speed can also cause issues. Therefore, it's always
 advisable to ensure that the internet speed is optimum for pages to load
 successfully.
 
-??? Warning "Note"
-    
-    If you have any other questions that are not answered on this page, simply reach out to us through the 
-    [Contact Us Page](https://www.quantinsti.com/contact-us) or email us at [quantra@quantinsti.com](quantra@quantinsti.com). 
-    We will make sure that we help you in resolving your issues at the earliest.
-
 ## What if my question is not answered here?
 
 If you have any other questions that are not answered on this page, simply reach out to us through the 
 [Contact Us Page](https://www.quantinsti.com/contact-us) or email us at [quantra@quantinsti.com](quantra@quantinsti.com). 
 We will make sure that we help you in resolving your issues at the earliest.
-
-    
-[^1]: 
-    See <a href="https://jpm.pm-research.com/content/15/3/30" target="_blank">here</a>
-    for example.

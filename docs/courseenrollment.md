@@ -10,7 +10,7 @@ After finding the course which interests you, enroll yourself by clicking
 on the `ENROLL NOW` button. Quantra offers both free and paid courses. 
 
 For paid courses, you will be redirected to a secure payment gateway. 
-You can see the free courses by using the filter on left hand side. Once 
+You can see the free courses by using the filter on right hand side. Once 
 you are enrolled for the course, you can click on the `START COURSE` button 
 and you would be redirected to the first unit of the course!
 
@@ -55,7 +55,9 @@ level to `Advanced` level, mini track contains less courses and can be purchased
 ## Can I try a paid course without buying it?
 
 Yes, you can ==preview a course== before purchasing it on Quantra. To preview any course, simply click on 
-the green `Free Preview` button on the course page.
+the green `Free Preview` button (reference image added below) on the course page.
+
+<image src="../images/preview_button.png" alt="preview_button" align="center" /img>
 
 ## What if my question is not answered here?
 

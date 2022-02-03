@@ -17,10 +17,6 @@ If you are unable to make payments for paid courses on the Quantra® website, ju
 [Contact Us Page](https://www.quantinsti.com/contact-us) or email us at [quantra@quantinsti.com](quantra@quantinsti.com). 
 We will make sure that we help you in resolving your issues at the earliest.
 
-!!! Additional
-    Moreover, if you are facing payment related issues on our 
-    website, follow the same steps as mentioned above.
-
 ## My payment got debited but I am unable to see my courses in the dashboard.
 
 In such a case, you can follow the steps below:
@@ -31,6 +27,13 @@ details.
 2. Else, you can ==reach out to the Customer Success team== at 
 [quantra@quantinsti.com](quantra@quantinsti.com) with the necessary 
 screenshots & details of the enrolled course(s).
+
+## I am unable to find my purchased course in the dashboard. What should I do?
+
+In such a case, firstly, you should ==confirm if the payment== for the course was
+successful. Post confirmation, if you're still unable to see the course in 
+your dashboard, you can simply ==write to us at [quantra@quantinsti.com](quantra@quantinsti.com)== 
+and our Customer Satisfaction Team will address your query at the earliest.
 
 ## What is the refund policy at Quantra?
 

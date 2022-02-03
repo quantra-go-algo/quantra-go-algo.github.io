@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scheduling-regular-actions-on-blueshift" class="md-skip">
+        <a href="#contact-us" class="md-skip">
           Skip to content
         </a>
       
@@ -390,7 +390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faqs/" class="md-nav__link">
+      <a href="../browserversions/" class="md-nav__link">
         Broswer Version
       </a>
     </li>
@@ -449,67 +449,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Contact Us
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         Contact Us
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#scheduling-functions" class="md-nav__link">
-    Scheduling functions
-  </a>
-  
-    <nav class="md-nav" aria-label="Scheduling functions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#date-rules" class="md-nav__link">
-    Date rules
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#time-rules" class="md-nav__link">
-    Time rules
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scheduling-in-live-runs" class="md-nav__link">
-    Scheduling in live runs
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -542,48 +484,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#scheduling-functions" class="md-nav__link">
-    Scheduling functions
-  </a>
-  
-    <nav class="md-nav" aria-label="Scheduling functions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#date-rules" class="md-nav__link">
-    Date rules
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#time-rules" class="md-nav__link">
-    Time rules
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scheduling-in-live-runs" class="md-nav__link">
-    Scheduling in live runs
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -595,86 +495,11 @@
               
                 
 
-<h1 id="scheduling-regular-actions-on-blueshift">Scheduling regular actions on Blueshift®<a class="headerlink" href="#scheduling-regular-actions-on-blueshift" title="Permanent link">&para;</a></h1>
-<h2 id="scheduling-functions">Scheduling functions<a class="headerlink" href="#scheduling-functions" title="Permanent link">&para;</a></h2>
-<p>On Blueshift®, we can schedule a particular function to be called at a 
-particular time interval. This is useful if our strategy (or some part
-of it) is executed at pre-determined time interval. A typical example 
-will be weekly or monthly portfolio rebalance or a daily end-of-day 
-square-off for an intraday strategy. For such cases, we can 
-use the <code>schedule_function</code> API function, instead of checking for the
-time condition in <code>handle_data</code> ourselves.</p>
+<h1 id="contact-us">Contact Us<a class="headerlink" href="#contact-us" title="Permanent link">&para;</a></h1>
 <div class="admonition warning">
-<p class="admonition-title">Scheduling function</p>
-<p>Call to <code>schedule_function</code> must be done at the <code>initialize</code> 
-function. Also, make sure they are scheduled before at least 2 
-minutes from the close of the markets, else they might get 
-triggered next day (to avoid potential forward-looking bias). We 
-recommend scheduling time at least 5 minutes before day close.</p>
+<p class="admonition-title">Note</p>
+<p>Content to be decided. </p>
 </div>
-<p>Examples below:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">blueshift.api</span> <span class="kn">import</span> <span class="n">schedule_function</span><span class="p">,</span> <span class="n">date_rules</span><span class="p">,</span> <span class="n">time_rules</span>
-
-<span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">context</span><span class="p">):</span>
-    <span class="n">schedule_function</span><span class="p">(</span><span class="n">my_func</span><span class="p">,</span> <span class="n">date_rules</span><span class="o">.</span><span class="n">month_start</span><span class="p">(),</span> 
-                        <span class="n">time_rules</span><span class="o">.</span><span class="n">market_open</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">minutes</span><span class="o">=</span><span class="mi">5</span><span class="p">)))</span>
-
-<span class="k">def</span> <span class="nf">my_func</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-    <span class="k">pass</span>
-</code></pre></div>
-<p>Here we schedule a function called <code>my_func</code> in the <code>initialize</code> 
-function. The periodicity is specified by specifying the date periodicity 
-and the time periodicity, <code>date_rules</code> and <code>time_rules</code> respectively. 
-Here we use the <code>month_start</code> method of <code>date_rule</code>. The <code>offset</code> can 
-be specified too. For example to run a function 5<sup>th</sup> of every month, we 
-can specify <code>date_rules.month_start</code> with a offset of <code>5</code>. Similarly, 
-the time rules (via <code>time_rules</code>) specifies the the function to be 
-called after 1 hour and 5 minutes after the <code>market_open</code>. Note hours 
-and minutes denote <code>after</code> for <code>market_open</code> and <code>before</code> for 
-<code>market_close</code>. Other possiblities are:</p>
-<h4 id="date-rules">Date rules<a class="headerlink" href="#date-rules" title="Permanent link">&para;</a></h4>
-<ul>
-<li><code>date_rules.every_day()</code>: call every day</li>
-<li><code>date_rules.month_start(offset)</code>: Call <code>offset</code> days after start of 
-    the month.</li>
-<li><code>date_rules.month_end(offset)</code>: Call <code>offset</code> days before end of 
-    the month.</li>
-<li><code>date_rules.week_start(offset)</code>: Call <code>offset</code> days after start of 
-    the week.</li>
-<li><code>date_rules.week_end(offset)</code>: Call <code>offset</code> days before end of 
-    the week.</li>
-</ul>
-<h4 id="time-rules">Time rules<a class="headerlink" href="#time-rules" title="Permanent link">&para;</a></h4>
-<ul>
-<li><code>time_rules.every_minute()</code>: call every minute on the scheduled date</li>
-<li><code>time_rules.market_open(hours, minutes)</code>: call <code>hours</code> and <code>minutes</code> 
-    after the market opens on scheduled date</li>
-<li><code>time_rules.market_close(hours, minutes)</code>: call <code>hours</code> and <code>minutes</code> 
-    before the market cloes on scheduled date</li>
-</ul>
-<p>On the live platform you also can use <code>time_rules.every_nth_minute(n)</code> 
-for a call every n-th minute and <code>time_rules.every_nth_hour(n)</code> for 
-calls every n-th hour.</p>
-<p>For more details on the scheduling APIs, see the 
-<a href="https://blueshift.quantinsti.com/api-docs/api.html#scheduled-callback-functions">API doc</a>.</p>
-<h2 id="scheduling-in-live-runs">Scheduling in live runs<a class="headerlink" href="#scheduling-in-live-runs" title="Permanent link">&para;</a></h2>
-<div class="admonition danger">
-<p class="admonition-title">Call time on live trading</p>
-<p>In live trading you should not make any assumption on the 
-call timing of any functions - either <code>scheduled</code> or the 
-<a href="../concepts/#special-functions-on-blueshift">main entry-point</a> functions. However, the call orders will be 
-maintained.</p>
-</div>
-<p>The concept of time is different between backtest and a live run. In a
-backtest, we control the time, as we feed the time-stamps to the 
-simulation engine. On a live run, we have no control. A function 
-scheduled to be called at exactly 18:00 hours can be called later, if 
-other routines part of the algorithm were busy executing as it waits 
-in the line. This is particularly important if you are using the 
-<code>schedule_function</code> API function to carry out end-of-day squaring off 
-of positions in an intraday strategy. Make sure the timing of the 
-scheduling is comfortably before the market close, so that it has a 
-chance to run while the market is still trading.</p>
 
               
             </article>
@@ -688,7 +513,7 @@ chance to run while the market is still trading.</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../faqs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Broswer Version" rel="prev">
+        <a href="../browserversions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Broswer Version" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>

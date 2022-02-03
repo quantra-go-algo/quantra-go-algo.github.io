@@ -15,7 +15,9 @@ The link to the `My Certificates` tab is available [here](https://quantra.quanti
 ## How do I access my course certificate?
 
 You can download your certificate by clicking on the profile icon at the top right 
-corner of the page and selecting `Certificates' from the menu. 
+corner of the page and selecting `Certificates' from the menu (reference image added below). 
+
+<image src="../images/certificate_discovery.png" alt="certificate_discovery" align="center" /img>
 
 Upon entering the certificates section, you can simply follow the steps below:
 
@@ -41,11 +43,11 @@ To give a review, you can follow the steps below:
 2. Click on the `Thumbs Up` :fontawesome-solid-thumbs-up: icon on the header of the learning portal
 3. Once you have drafted the review, click on the `Submit` button to share the review with us
 
-<img src="../images/course_reviews.png" alt="action block" align="center" /img>
+<img src="../images/course_reviews.png" alt="course_reviews" align="center" /img>
 
 !!! Note
     In case you're unable to see the `Thumbs Up` icon, it might be possible that you have
-    ==not completed the course==.
+    ==not completed the course== yet.
 
     However, if you're sure that you've completed the course and still can't submit your review,
     then please feel free to reach out to our team at [quantra@quantinsti.com](quantra@quantinsti.com). We will 

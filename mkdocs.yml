@@ -5,7 +5,7 @@ site_author: Quantinsti® Quantitative Learning
 copyright: 'Copyright &copy; 2021 Quantinsti® Quantitative Learning'
 theme:
     name: 'material'
-    logo: 'images/logo.svg'
+    logo: 'images/quantra_logo_black.png'
     palette:
         primary: light green
         media: "(prefers-color-scheme: light)" 

@@ -61,7 +61,7 @@ reasons. In such a case, you can simply `Refresh` your webpage or `Restart` your
 In general, the Jupyter notebook takes `about 60 seconds` to load and you will 
 be able to see the action messages in realtime beneath the Quantra logo.
 
-<image src="../images/jupyter_notebook1.png" alt="report" align="center" /img>
+<image src="../images/jupyter_notebook1.png" alt="jupyter_notebook1" align="center" /img>
 
 However, in case you're still unable to see the Jupyter notebook, it might be due to the following reasons:
 
